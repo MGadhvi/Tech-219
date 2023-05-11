@@ -1,7 +1,6 @@
 package com.sparta.mg.nested_classes.anon;
 
+@FunctionalInterface
 public interface Speakable {
-
-    void speak(String name);
-    void play();
+    String speak();
 }

@@ -12,11 +12,11 @@ public class OuterClass {
             return outerClass;
         }
 
-//        public String print() {
-//            OuterClass outerClass = new OuterClass();
-//            return "I can see the " + outerClass.privateString;
-//            return "I can see the " + privateString;
-//        }
+        public String print() {
+            OuterClass outerClass = new OuterClass();
+            return "I can see the " + outerClass.privateString;
+            return "I can see the " + privateString; //not visible
+        }
 
         public String printStatic() {
             return "I can see the " + privateStaticString;
@@ -24,8 +24,8 @@ public class OuterClass {
     }
 
     public static void main(String[] args) {
-        InnerClass innerStaticClass = new InnerClass();
-        //System.out.println(innerStaticClass.print());
+        InnerClass innerStaticClass = new OuterClass.InnerClass();
+        System.out.println(innerStaticClass.print());
         System.out.println(innerStaticClass.getClass());
     }
 }

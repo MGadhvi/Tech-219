@@ -1,7 +1,5 @@
 package com.sparta.mg.generics;
 
-import java.math.BigInteger;
-
 public class GenericBox<T> {
     private T t;
 
@@ -13,6 +11,6 @@ public class GenericBox<T> {
     public T get() { return t; }
 
     public static void main(String[] args) {
-
+        //GenericBox<? extends Number> box = new GenericBox<>("Hello");
     }
 }

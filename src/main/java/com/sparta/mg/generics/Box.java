@@ -11,7 +11,7 @@ public class Box {
     public Object get() { return object; }
 
     public static void main(String[] args) {
-        Box box = new Box("Hello");
+        Box box = new Box(1);
         System.out.println(box.get());
     }
 }

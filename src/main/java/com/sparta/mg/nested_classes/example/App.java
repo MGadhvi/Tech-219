@@ -13,6 +13,6 @@ public class App {
                 new Spartan("David",3)));
 
         Collections.sort(numbers);
-        Collections.sort(spartans);
+        //Collections.sort(spartans, new SpartanComparator());
     }
 }
