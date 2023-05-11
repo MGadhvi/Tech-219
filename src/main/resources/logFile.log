@@ -1,0 +1,18 @@
+May 10, 2023 1:51:10 PM com.sparta.mg.logging.App main
+INFO: This is an Info message
+May 10, 2023 1:51:10 PM com.sparta.mg.logging.App main
+WARNING: This is a Warning message
+May 10, 2023 1:51:10 PM com.sparta.mg.logging.App main
+FINE: This is a Fine message
+May 10, 2023 1:52:31 PM com.sparta.mg.logging.App main
+INFO: This is an Info message
+May 10, 2023 1:52:31 PM com.sparta.mg.logging.App main
+WARNING: This is a Warning message
+May 10, 2023 1:52:31 PM com.sparta.mg.logging.App main
+FINE: This is a Fine message
+20230510 com.sparta.mg.logging.App INFO This is an Info message
+20230510 com.sparta.mg.logging.App WARNING This is a Warning message
+20230510 com.sparta.mg.logging.App FINE This is a Fine message
+20230510 com.sparta.mg.logging.App INFO This is an Info message
+20230510 com.sparta.mg.logging.App WARNING This is a Warning message
+20230510 com.sparta.mg.logging.App FINE This is a Fine message
