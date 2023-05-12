@@ -1,6 +1,8 @@
 package com.sparta.mg.design_patterns.decorator.sides;
 
-public class Chips {
+import com.sparta.mg.design_patterns.decorator.Pizza;
+
+public class Chips extends Sides{
 
     public Chips(Pizza pizza) {
         super(pizza);
@@ -8,14 +10,12 @@ public class Chips {
 
     @Override
     public String getDescription() {
-        public class Chips extends Sides {
+        return pizza.getDescription() + " and Chips";
+    }
 
-	return pizza.getDescription()+" and chips";
-        }
-
-        @Override
-        public double getCost () {
-            return pizza.getCost() + 20;
-        }
+    @Override
+    public double getCost() {
+        return pizza.getCost() + 5;
     }
 }
+
