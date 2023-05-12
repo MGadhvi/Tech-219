@@ -7,6 +7,7 @@ public abstract class Pizza {
     public String getDescription() {
         return description;
     }
+
     public double getCost() {
         return cost;
     }
