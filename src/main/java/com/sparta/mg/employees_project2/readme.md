@@ -33,5 +33,3 @@
     - ```birth_date``` should be after 1900-01-01
     - ```hire_date``` should be more recent than ```birth_date```
     - names should only contain alpha chars, spaces and hyphens and should begin with a capital letter
-    - gender should be ```X```, ```F``` or ```M```
-- The original database structure doesn't allow for ```X``` as a value for gender, so the column definition should be altered accordingly in the table
