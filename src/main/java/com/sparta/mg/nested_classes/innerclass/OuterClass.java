@@ -14,6 +14,6 @@ public class OuterClass {
 
     public static void main(String[] args) {
         OuterClass outerObject = new OuterClass();
-        InnerClass innerObject = outerObject.new InnerClass();
+        OuterClass.InnerClass innerObject = outerObject.new InnerClass();
     }
 }
