@@ -12,7 +12,7 @@ public class BankAccount implements Runnable {
         }
     }
 
-    private void makeWithdrawal(int amount) {
+    private synchronized void  makeWithdrawal(int amount) {
         if (balance >= amount) {
             System.out.println(Util.getThreadName() + " is going to withdraw");
             balance = balance - amount;

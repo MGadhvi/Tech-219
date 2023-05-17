@@ -22,6 +22,7 @@ public class SpartanRepositoryTests {
     static void setupAll(TestInfo testInfo) {
         System.out.println("BeforeAll");
         System.out.println(testInfo.getTestClass() + "Started");
+        SpartanRepository spartanRepository = new SpartanRepository();
     }
 
     @BeforeEach
